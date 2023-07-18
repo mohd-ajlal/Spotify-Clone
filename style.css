@@ -38,3 +38,36 @@ nav ul li{
     font-size: 1.3rem;
 
 }
+
+.container{
+    min-height: 75vh;
+}
+
+.buttom{
+    position: sticky;
+    height: 118px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: auto;
+}
+
+.icons{
+    margin: 14px;
+}
+
+.icons{
+    cursor: pointer;
+}
+
+#myProgressBar{
+    cursor: pointer;
+    width: 80%;
+    height: 5px;
+    background-color: #fff;
+    position: relative;
+}
